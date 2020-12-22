@@ -138,9 +138,28 @@ const App =() =>{
         </ScrollView>
       </View>
       <View>
-      
+      <View style={{flex:1}}>
+        <View style={{borderWidth:1,position:'absolute',bottom:670,flexDirection: 'row',}}>
+        <View style={{backgroundColor:'white'}}>
+          <Image source={logo2} style={{width:35,height:35,margin:10}}>
+          </Image>
+        </View>
+        <View style={{backgroundColor:'white'}}>
+          <Image source={logo} style={{width:50,height:50,marginTop:10,marginLeft:130}}>
+          </Image>
+        </View>
+        <View style={{backgroundColor:'white'}}>
+          <Text style={{width:65,height:65,marginLeft:20,marginLeft:92}}>
+            PnL Mail
+          </Text>
+        </View>
+        
+
+        </View>
+      </View>
       </View>
         <FootTer></FootTer>
+
         
     </View>
   )
